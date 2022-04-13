@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+
+header .logo {
+  width: 200px;
+  padding: 20px 0 0 20px;
+}
+
+header .header-flex {
+  display: flex;
+  padding: 0 40px 0 0;
+}
+
+header .header-text {
+  color: #000;
+  font-size: 10px;
+}
+
+header .bold {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .header-list {
+  padding-right: 40px;
+  text-align: center;
+}
+
+header .header-button {
+  color: #fff;
+  background-color: #FF9900;
+  padding: 12px 18px;
+  font-size: 11px;
+  border: solid 1px #FF9900;
+  border-radius: 20px;
+}
+
+main .view-sp {
+  display: none;
+}
+
+main .Firstview {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  height: 550px;
+}
+
+main .main-flex {
+  display: flex;
+  flex-flow: column;
+}
+
+main .buttons {
+  padding-top: 30px;
+}
+
+main .section-button1 {
+  color: #fff;
+  background-color: #FF9900;
+  border: solid 1px #FF9900;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 25px 50px;
+}
+
+main .section-button2 {
+  color: black;
+  border: solid 1px #DDDDDD;
+  padding: 25px 30px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+main .imgs {
+  /* margin-bottom: 25px; */
+  display: flex;
+}
+
+.section-img13 {
+  width: 25%;
+}
+
+.section-img2 {
+  width: 50%;
+}
+
+main .section-content {
+  padding: 0 50px;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+main .section-content-container {
+  margin-bottom: 70px;
+  width: 500px;
+}
+
+section h2 {
+  font-size: 37px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+section ul {
+  padding: 15px 0 0 0;
+  color: 	#C0C0C0;
+  font-size: 10px;
+}
+
+.content {
+  padding: 45px 0;
+  height: 170px;
+  background-color: #FF9900;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 45px;
+}
+
+.content p {
+  color: #fff;
+}
+
+.content-flex {
+  display: flex;
+  margin: 0 17px;
+  padding: 0 50px;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content-a-flex {
+  display: flex;
+  flex-direction: column;
+  color: #FF9900;
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: px;
+  font-size: 15px;
+  padding: 5px 60px;
+  border-radius: 50px;
+}
+
+.content-name {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-under {
+  font-size: 12px;
+  text-align: center;
+}
+
+.content-box {
+  width: 550px;
+}
+
+.content-box p {
+  margin: 0;
+}
+
+.content-box h2 {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-box br {
+  display: none;
+}
+
+
+.content-button {
+  vertical-align: center;
+  margin: auto 0;
+}
+
+
+@media screen and (max-width: 1080px) {
+  header nav {
+    display: none;
+  }
+
+  .menu:hover {
+    cursor: pointer;
+  }
+
+  .line {
+    height: 3px;
+    background-color: #000;
+    width: 30px;
+    display: block;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+
+  header {
+    position: fixed;
+    background-color: #fff;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .content {
+    height: auto;
+  }
+  .content-flex {
+    flex-direction: column;
+  }
+
+  .content-box {
+    width: 100%;
+  }
+
+  .content-box h2 {
+    margin: 0 0 30px 0;
+  }
+
+  .content-button {
+    width: 250px;
+    margin: 35px auto  auto;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  header .logo {
+    width: 150px;
+    padding-top: 15px;
+  }
+
+  main .view-sp {
+    display: block;
+  }
+
+  main .Firstview {
+    background-image: none;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  main .section-content-container {
+    width: auto;
+    margin-top: -45vw;
+    margin-bottom: 10px;
+  }
+
+  main .view-sp {
+    width: 100%;
+  }
+
+  .section-content-container h2 {
+    font-size: 25px;
+  }
+
+  .imgs {
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    display: flex;
+  }
+ 
+  .section-button1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-button2 {
+    display: none;
+  }
+
+  .content {
+    padding: 30px 0;
+  }
+
+  .content-flex h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .content-box br {
+    display: block;
+  }
+}
+
