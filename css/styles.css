@@ -22,6 +22,10 @@ header .logo {
   padding: 20px 0 0 20px;
 }
 
+header .logo:hover {
+  opacity: 0.7;
+}
+
 header .header-flex {
   display: flex;
   padding: 0 40px 0 0;
@@ -43,6 +47,11 @@ header .header-list {
   text-align: center;
 }
 
+header .header-list:hover {
+  opacity: 0.7;
+}
+
+
 header .header-button {
   color: #fff;
   background-color: #FF9900;
@@ -50,6 +59,10 @@ header .header-button {
   font-size: 11px;
   border: solid 1px #FF9900;
   border-radius: 20px;
+}
+
+header .header-button:hover {
+  opacity: 0.7;
 }
 
 main .view-sp {
@@ -83,6 +96,10 @@ main .section-button1 {
   padding: 25px 50px;
 }
 
+main .section-button1:hover {
+  opacity: 0.7;
+}
+
 main .section-button2 {
   color: black;
   border: solid 1px #DDDDDD;
@@ -91,8 +108,11 @@ main .section-button2 {
   background-color: #fff;
 }
 
+main .section-button2:hover {
+  opacity: 0.7;
+}
+
 main .imgs {
-  /* margin-bottom: 25px; */
   display: flex;
 }
 
@@ -197,6 +217,9 @@ section ul {
   margin: auto 0;
 }
 
+.content-button:hover {
+  opacity: 0.7;
+}
 
 @media screen and (max-width: 1080px) {
   header nav {
